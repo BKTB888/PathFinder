@@ -10,7 +10,7 @@ int main() {
     using namespace std;
 
     auto fs = ifstream("input.txt");
-    auto& is = cin;
+    auto& is = fs;
 
     //Field and node_selectors
     auto field = Field();
